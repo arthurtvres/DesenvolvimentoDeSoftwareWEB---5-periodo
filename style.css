@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#temaBtn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+#temaBtn:hover {
+    background-color: darkorange;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode article {
+    background-color: #1e1e1e;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.dark-mode nav a {
+    color: white;
+}
+
+article {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.a1 {
+
+    border-color: orange;
+}
+
+.a2 {
+    border-color: red;
+}
+
+.a3 {
+    border-color: blue;
+}
+
+#botaoEnviar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn {
+    display: block;
+    padding: 12px 20px;
+    background-color: #ff3c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: #cc3000;
+    transform: scale(1.05);
+}
+

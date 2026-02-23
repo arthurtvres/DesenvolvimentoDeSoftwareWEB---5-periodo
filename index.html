@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+    <a href="index.html">
+        <img src="icons/icon.png" alt="home" width="50">
+    </a>
+    <h1>Atividade 02 - HTML, CSS E JS</h1>
+    <button id="temaBtn">🌙 Alternar Tema</button>
+</header>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.pokemon.com/br/pokedex" target="_blank">Pokedex </a></li>
+            <li><a href="https://pokemondb.net/pokedex/game/diamond-pearl" target="_blank">Jogo Favorito</a></li>
+            <li><a href="perfil.html">Sobre Mim</a></li>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Uma curiosidade sobre mim: </h2>
+            <p>Eu sou um grande fã de pokémon, adoro jogar os jogos da série e assistir os animes. A seguir, você pode
+                ver os meus três pokemons favoritos da franquia.</p>
+
+            <article class="a1">
+                <h3>Lucario</h3>
+                <p>Tipo: Lutador/Aço</p>
+                <img src="icons/fightingtype.png" alt="" width="50">
+                <img src="icons/steeltype.png" alt="" width="50">
+                <p>Lucario é conhecido por sua habilidade de sentir e manipular a aura, uma energia espiritual presente
+                    em todos os seres vivos. Ele se tornou extremamente popular após sua aparição no filme Pokémon:
+                    Lucario e o Mistério de Mew, <br> além de ser muito utilizado em batalhas competitivas.</p>
+                <img src="icons/lucario.png" alt="Lucario" width="200">
+            </article>
+
+            <article class="a2">
+                <h3>Infernape</h3>
+                <p>Tipo: Fogo/Lutador</p>
+                <img src="icons/firetype.png" alt="" width="50">
+                <img src="icons/fightingtype.png" alt="" width="50">
+                <p>Infernape é o Pokémon inicial do tipo Fogo da quarta geração. Ele evolui de Monferno e é conhecido
+                    por sua grande velocidade e força física. Seu visual é inspirado no lendário Rei Macaco da mitologia
+                    chinesa, Sun Wukong.</p>
+                <img src="icons/infernape.png" alt="Infernape" width="200">
+            </article>
+
+            <article class="a3">
+                <h3>Inteleon</h3>
+                <p>Tipo: Água</p>
+                <img src="icons/watertype.png" alt="" width="50">
+                <p>Inteleon é o Pokémon inicial do tipo Água da oitava geração. Ele evolui de Sobble e possui
+                    características inspiradas em um agente secreto, utilizando ataques precisos e estratégicos. <br>
+                    Sua
+                    habilidade de mira é considerada uma das mais afiadas entre os Pokémon do tipo Água.</p>
+                <img src="icons/inteleon.png" alt="Inteleon" width="200">
+            </article>
+
+            <section class ="formulario">
+                <h2>Agora me diz, qual seu pokémon favorito?</h2>
+
+                <form id="formContato">
+                    <label>Nome:</label><br>
+                    <input type="text" id="nome" required><br><br>
+
+                    <label>Pokémon favorito:</label><br>
+                    <input type="text" id="pokemonFav" required><br><br>
+
+                    <button id="botaoEnviar">Enviar</button>
+                </form>
+
+                <p id="mensagem"></p>
+            </section>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <address>
+            Nome: Arthur Tavares <br>
+            Data Nascimento: 15/12/2005 <br>
+            <img src="icons/icon.png" width="30" alt="Ícone">
+        </address>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
