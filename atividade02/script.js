@@ -11,7 +11,6 @@ botaoTema.addEventListener("click", function () {
 });
 
 const form = document.getElementById("formContato");
-
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
