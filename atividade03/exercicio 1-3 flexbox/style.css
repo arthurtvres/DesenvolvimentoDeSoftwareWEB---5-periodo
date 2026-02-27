@@ -1,0 +1,49 @@
+
+/* Exercicio 1 */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background: #333;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Exercicio 2 */
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    background: #aaa;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Exercicio 3 */
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    height: 80px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+}
+
+.footer {
+    height: 60px;
+}
