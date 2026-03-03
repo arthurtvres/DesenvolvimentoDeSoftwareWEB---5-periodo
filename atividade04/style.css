@@ -1,0 +1,39 @@
+/*Exercicio 1*/
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 250px;
+    padding: 20px;
+    background: #ff8800;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Exercicio 2*/
+.menu {
+    background: #535353;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+}
+
+.menu ul li a{
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .menu ul {
+        flex-direction: column;
+    }
+}
+
+/*Exercicio 3*/
